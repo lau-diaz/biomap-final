@@ -1,0 +1,20 @@
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#imagenFooter {
+    width: 140px;
+}
+
+#footer {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.listasFooter {
+    text-decoration: none;
+}

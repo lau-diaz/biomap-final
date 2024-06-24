@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:wght@300;400;700&family=Righteous&display=swap');
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column; /* Apila los elementos uno encima del otro */
+    align-items: flex-end; /* Alinea los elementos a la izquierda */
+    margin-top: 15px; /* Ajusta el margen superior según sea necesario */
+}
+
+.pestania{
+    display: flex; /* Utilizamos flexbox */
+    align-items: center; /* Centramos verticalmente los elementos */
+    width: 400px; 
+    height: 100px; 
+    background-color: white; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;   
+    right: 0;
+    
+}
+.foto-pestania{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: rgb(233, 233, 233);
+}
+.texto-pestania{
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 12pt;
+    color: #3B2D2D;
+    margin-left: 5px; /* Espacio entre el círculo y el texto */
+}
+
+.texto-pestania > div {
+    margin-top: 3px; /* Espacio entre los textos */
+}
+.foto-pestania img{
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 60px;
+}
+.subTexto{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}

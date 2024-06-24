@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '/src/components/Navbar.jsx'
-import Footer from '/src/components/Footer.jsx'
+import Navbar from '/src/components/Lau/Navbar.jsx'
+import Footer from '/src/components/Lau/Footer.jsx'
 import { Outlet } from 'react-router-dom'
 
 export default function Plantilla1() {

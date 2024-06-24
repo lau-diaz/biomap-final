@@ -1,7 +1,7 @@
 import React from 'react'
 import './Pestanias.css'
 
-export default function Pestanias({fotoRegion, nombreRegion, subRegion}) {
+function Pestanias({fotoRegion, nombreRegion, subRegion}) {
     return (
             <div className='contenedor'>
                 <div className='pestania'>
@@ -16,3 +16,5 @@ export default function Pestanias({fotoRegion, nombreRegion, subRegion}) {
             </div>
      )
 }
+
+export default Pestanias

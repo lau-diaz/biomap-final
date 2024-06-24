@@ -1,6 +1,6 @@
 import React from 'react'
 import './MapaGeneral.css'
-import Pestanias from '../components/Pestanias'
+import Pestanias from '../../components/Lau/Pestanias'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 

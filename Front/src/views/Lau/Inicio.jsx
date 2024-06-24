@@ -1,8 +1,8 @@
 import React from 'react'
-import Parrafoimg from '/src/components/Parrafoimg.jsx'
-import Carrusel from '/src/components/Carrusel.jsx'
-import ImgHov from '/src/components/ImgHov.jsx'
-import BotonSubir from '/src/components/BotonSubir.jsx'
+import Parrafoimg from '/src/components/Lau/Parrafoimg.jsx'
+import Carrusel from '/src/components/Lau/Carrusel.jsx'
+import ImgHov from '/src/components/Lau/ImgHov.jsx'
+import BotonSubir from '/src/components/Lau/BotonSubir.jsx'
 import './Fondo.css'
 
 function Inicio() {
@@ -12,17 +12,22 @@ function Inicio() {
             <div className="row m-5 p-3"></div>
             <Parrafoimg titulo={"BIENVENIDO"} imagen={"https://i.imgur.com/cvngJzg.png"} />
             <div className="row m-5 p-3"></div>
-            <Carrusel />
+            {/* <Carrusel /> */}
             <div id="cuadriculaImagenes" className="row text-center mt-5">
-                <div className="col-4">
-                    <ImgHov nombre={"Zorro Culpeo"} imagenAnimales={"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYZuIK6NXi4MLf53jr5fCRNxWVo_FErnC-ibFCVLmpa-3ix8bvdSAlp2H7fK_54DxGiMW0t418GHSCYkHJ3-0zbG_LCp9ljy0s=w1920-h919-rw-v1"} />
+                <div className='col-1'></div>
+                <div className="col">
+                    <ImgHov nombre={"Zorro Culpeo"} imagenAnimales={"https://i.imgur.com/djRqc55.jpeg"} />
                 </div>
-                <div className="col-4">
-                    <ImgHov nombre={"Picaflor de Arica"} imagenAnimales={"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihaMFwHB6oHolbnHQh_CkPmvcMbExYTCx69DwCmKSfK--fiT0xsGK72FrN7rzZDDWKEAcf8_RDYwN5zVBE2jODZCnLNMCPeQoe8=w1920-h919"} />
+                <div className="col">
+                    <ImgHov nombre={"Picaflor de Arica"} imagenAnimales={"https://i.imgur.com/XPMsUxA.gif"} />
                 </div>
-                <div className="col-4">
-                    <ImgHov nombre={"Chungungo"} imagenAnimales={"https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY6DnrWC3JpclWYPAvvZbvCn6_03xeCFha-Z887bE21IO69l_d8HQLvpSVq1hsQVq2GXhrVzjFxc2G7yaLxrhAAGpm1Z_8q9pE=w1920-h919-rw-v1"} />
+                <div className="col">
+                    <ImgHov nombre={"Chungungo"} imagenAnimales={"https://i.imgur.com/majNqFB.jpeg"} />
                 </div>
+                <div className="col">
+                    <ImgHov nombre={"Monito del Monte"} imagenAnimales={"https://i.imgur.com/9uX3Pnl.jpeg"} />
+                </div>
+                <div className='col-1'></div>
             </div>
             <div className="row m-5"></div>
             <Parrafoimg titulo={"¿CÓMO FUNCIONA BIOMAP?"} imagen={"https://i.imgur.com/P6qkS9u.png"} />

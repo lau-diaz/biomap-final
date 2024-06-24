@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Inicio from './views/Inicio.jsx'
-import Plantilla1 from './views/Plantilla1.jsx'
-import Plantilla2 from './views/Plantilla2.jsx'
-import MapaGeneral from './views/MapaGeneral.jsx'
-import Region from './views/Region.jsx'
+import Inicio from './views/Lau/Inicio.jsx'
+import Plantilla1 from './templates/Plantilla1.jsx'
+import Plantilla2 from './templates/Plantilla2.jsx'
+import MapaGeneral from './views/Lau/MapaGeneral.jsx'
+import Region from './views/Lau/Region.jsx'
 
 function App() {
 

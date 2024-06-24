@@ -1,5 +1,5 @@
 import React from 'react'
-import Pestanias from '../components/Pestanias'
+import Pestanias from '../../components/Lau/Pestanias'
 import './Region.css'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'

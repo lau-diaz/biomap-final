@@ -1,0 +1,9 @@
+#textoimagen {
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ajusta la altura del contenedor principal para que ocupe toda la pantalla */
+}
+
+      
+

@@ -25,7 +25,7 @@ const Navbar = () => {
                                 <Link className="nav-link active" aria-current="page" to="/">Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="que-es-biomap.html">¿Qué es Biomap?</a>
+                                <Link className="nav-link" to='/que-es-biomap'>¿Qué es Biomap?</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/quienes-somos">Sobre Nosotras</Link>

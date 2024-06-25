@@ -6,9 +6,9 @@ function QuienesSomos() {
  
     return (
         <div>
-        <Textoimagen/>
+        <Textoimagen />
         <Imagentexto/>
-        <h1 className="row justify-content-center" style={{ fontSize: '55px' }}>CONOCE AL EQUIPO DE BIOMAP</h1>
+        <h1 className="row justify-content-center mt-4" style={{ fontSize: '55px' }}>CONOCE AL EQUIPO DE BIOMAP</h1>
         <Botonimagen/>
         </div>
     )

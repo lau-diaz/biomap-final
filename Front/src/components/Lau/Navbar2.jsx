@@ -25,10 +25,10 @@ const Navbar2 = () => {
                                 <Link className="nav-link active" aria-current="page" to="/mapa-general">Menú</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="que-es-biomap.html">Mapa</a>
+                                <Link className="nav-link" to='/mapa-general'>Mapa</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="Quienes_somos.html">Cápsulas Informativas</a>
+                                <Link className="nav-link" to='/capsulas'>Cápsulas Informativas</Link>
                             </li>
                         </ul>
                         <form className="container-flex justify-content-end">

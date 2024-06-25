@@ -7,7 +7,7 @@ function Textoimagen() {
   return (
     <div id="textoimagen">
 
-<       div className="container mt-5">
+<       div className="container mt-5 pt-4">
             <div className="row">
         <div className="col-md-6">
             <h2>¿Quiénes somos?</h2>

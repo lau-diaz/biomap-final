@@ -5,7 +5,7 @@ function Botonimagen() {
   return (
     <div>
         
-        <div className="container text-center my-5">
+        <div className="container text-center my-5 p-3 mb-5">
     <div className="row g-3">
       <div className="col">
         

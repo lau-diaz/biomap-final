@@ -1,9 +1,18 @@
-#textoimagen {
+/* #textoimagen {
 
     display: flex;
     justify-content: center;
-    align-items: center; /* Ajusta la altura del contenedor principal para que ocupe toda la pantalla */
-}
+    align-items: center; /* Ajusta la altura del contenedor principal para que ocupe toda la pantalla 
+} 
+*/
 
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25pt;
+    color: #3B2D2D;
+    text-transform: uppercase;
+}
       
 

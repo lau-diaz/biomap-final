@@ -1,6 +1,7 @@
 import React from "react"
 import {useState, useEffect} from "react"
 import {useParams, Link} from "react-router-dom"
+import './Imagentexto.css'
 
 function Imagentexto() {
   return (
@@ -8,7 +9,7 @@ function Imagentexto() {
         <div className="container mt-5">
     <div className="row justify-content-center">
         <div className="col-md-6">
-            <img src="https://lh3.google.com/u/0/d/1fMs52H6e0-MLwUvDlrLOZD5SokoZKBwB=w1920-h878-iv1" className="img-fluid mx-auto d-block" alt="Imagen de Biodiversidad" lang="400" width="400"/>
+            <img src="https://i.imgur.com/cvngJzg.png" className="img-fluid mx-auto d-block" alt="Imagen de Biodiversidad" lang="400" width="400"/>
         </div>
         <div className="col-md-6">
             <h3>Visión:</h3>

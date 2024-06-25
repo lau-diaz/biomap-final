@@ -5,6 +5,7 @@ import Plantilla1 from './templates/Plantilla1.jsx'
 import Plantilla2 from './templates/Plantilla2.jsx'
 import MapaGeneral from './views/Lau/MapaGeneral.jsx'
 import Region from './views/Lau/Region.jsx'
+import QuienesSomos from './views/geral/QuienesSomos.jsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Plantilla1 />}>
           <Route index element={<Inicio />} />
+          <Route path='/quienes-somos' element={<QuienesSomos />} />
         </Route>
         <Route path='/' element={<Plantilla2/>}>
           <Route path='/mapa-general' element={<MapaGeneral/>}/>

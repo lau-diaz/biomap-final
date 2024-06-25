@@ -1,25 +1,16 @@
-
-import Navbar from './componentes/Navbar'
-import Botonimagen from './componentes/Botonimagen'
-import Imagentexto from './componentes/Imagentexto'
-import Textoimagen from './componentes/Textoimagen'
-import Footer from './componentes/Footer'
+import Imagentexto from '/src/components/geral/Imagentexto.jsx'
+import Textoimagen from '/src/components/geral/Textoimagen.jsx'
+import Botonimagen from '/src/components/geral/Botonimagen.jsx'
 
 function QuienesSomos() {
  
     return (
-      <div>
-      <Navbar/>
         <div>
         <Textoimagen/>
         <Imagentexto/>
-        <h1 className="row justify-content-center">Conoce al equipo de Biomap</h1>
+        <h1 className="row justify-content-center" style={{ fontSize: '55px' }}>CONOCE AL EQUIPO DE BIOMAP</h1>
         <Botonimagen/>
         </div>
-    
-      <Footer/>
-      </div>
-  
     )
   }
   

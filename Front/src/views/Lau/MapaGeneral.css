@@ -13,3 +13,8 @@
     font-size: 55pt;
     color: #3B2D2D;
   }
+  .custom-link {
+    text-decoration: none; /* Elimina el subrayado azul */
+    color: inherit; /* Hereda el color de texto del elemento padre */
+    text-transform: uppercase;
+  }

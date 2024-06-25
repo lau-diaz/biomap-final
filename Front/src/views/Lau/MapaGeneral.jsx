@@ -22,12 +22,19 @@ export default function MapaGeneral() {
       <div className='row tituloMapa pt-5'>
         <h2>MAPA INTERACTIVO</h2>
       </div>
-        <div className='row'>
-            <div className='col-8 text-center mt-5'>
-                <img id='mapa' src='https://i.imgur.com/3MRezHD.png'/>
-            </div>
-            <div className='col-4'>
-                <Pestanias fotoRegion={"https://i.imgur.com/C5zDb3h.png"} nombreRegion={"REGIÓN DE ARICA Y PARINACOTA"} subRegion={"NORTE GRANDE"}/>
+      <div className='row'>
+        <div className='col-8 text-center mt-5'>
+          <img id='mapa' src='https://i.imgur.com/3MRezHD.png' alt='Mapa interactivo' />
+        </div>
+        <div className='col-4'>
+          {regiones.map(region => (
+            <Link key={region._id} to={`/region/${region._id}`} className='custom-link'>
+              <Pestanias fotoRegion={region.imgRegion} nombreRegion={region.nombre} subZona={region.ecosistema1} />
+            </Link>
+          ))}
+
+
+                {/* <Pestanias fotoRegion={"https://i.imgur.com/C5zDb3h.png"} nombreRegion={"REGIÓN DE ARICA Y PARINACOTA"} subRegion={"NORTE GRANDE"}/>
                 <Pestanias fotoRegion={"https://i.imgur.com/eid6ieS.png"} nombreRegion={"REGIÓN DE TARAPACÁ"} subRegion={"NORTE GRANDE"}/>
                 <Pestanias fotoRegion={"https://i.imgur.com/z8L6MPe.png"} nombreRegion={"REGIÓN DE ANTOFAGASTA"} subRegion={"NORTE GRANDE"}/>
                 <Pestanias fotoRegion={"https://i.imgur.com/GM4nwi2.png"} nombreRegion={"REGIÓN DE ATACAMA"} subRegion={"NORTE CHICO"}/>
@@ -42,7 +49,7 @@ export default function MapaGeneral() {
                 <Pestanias fotoRegion={"https://i.imgur.com/9vesW6d.png"} nombreRegion={"REGIÓN DE LOS RÍOS"} subRegion={"ZONA SUR"}/>
                 <Pestanias fotoRegion={"https://i.imgur.com/JYp2KBk.png"} nombreRegion={"REGIÓN DE LOS LAGOS"} subRegion={"ZONA SUR"}/>
                 <Pestanias fotoRegion={"https://i.imgur.com/htmxxgh.png"} nombreRegion={"REGIÓN DE AYSÉN"} subRegion={"ZONA SUR"}/>
-                <Pestanias fotoRegion={"https://i.imgur.com/ZRMGLjm.png"} nombreRegion={"REGIÓN DE MAGALLANES"} subRegion={"ZONA SUR"}/>
+                <Pestanias fotoRegion={"https://i.imgur.com/ZRMGLjm.png"} nombreRegion={"REGIÓN DE MAGALLANES"} subRegion={"ZONA SUR"}/> */}
             </div>
         </div>
     </div>

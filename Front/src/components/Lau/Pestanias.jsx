@@ -1,7 +1,7 @@
 import React from 'react'
 import './Pestanias.css'
 
-function Pestanias({fotoRegion, nombreRegion, subRegion}) {
+function Pestanias({fotoRegion, nombreRegion, subZona}) {
     return (
             <div className='contenedor'>
                 <div className='pestania'>
@@ -10,7 +10,7 @@ function Pestanias({fotoRegion, nombreRegion, subRegion}) {
                     </div>
                     <div className='texto-pestania'>
                         <div>{nombreRegion}</div>
-                        <div className='subTexto'>{subRegion}</div>
+                        <div className='subTexto'>{subZona}</div>
                     </div>
                 </div>
             </div>

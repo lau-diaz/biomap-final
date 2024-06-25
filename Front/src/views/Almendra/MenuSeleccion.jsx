@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import MenuMapaCapsulas from './MenuMapaCapsulas.jsx'
-import './MenuMapaCapsulas.css'
+import MenuMapaCapsulas from '../../components/Almendra/MenuMapaCapsulas.jsx'
+import './MenuSeleccion.css'
 
-function MenuSelecicon() {
-
-
+function MenuSeleccion() {
 return (
 
 <div className="App">
@@ -12,7 +10,7 @@ return (
       <h1  style={{color: "#3B2D2D", fontFamily: "Righteous, sans-serif"}}>BIENVENIDO</h1>
       <p style={{fontFamily: "Poppins, sans-serif"}}>¿Qué información deseas revisar?</p>
   </div>
-  <div className="container position-relativ">
+  <div className="container position-relative">
     <div className="row justify-content-center">
         <div className="col d-flex justify-content-end">
           <MenuMapaCapsulas texto={"CÁPSULAS INFORMATIVAS"} colorbtn={"#79BF67"}/>

@@ -7,6 +7,8 @@ import MapaGeneral from './views/Lau/MapaGeneral.jsx'
 import Region from './views/Lau/Region.jsx'
 import QuienesSomos from './views/geral/QuienesSomos.jsx'
 import QueEsBiomap from './views/Cata/QueEsBiomap.jsx'
+import MenuSeleccion from './views/Almendra/MenuSeleccion.jsx'
+import SeleccionCapsulas from './views/Almendra/SeleccionCapsulas.jsx'
 
 function App() {
 
@@ -18,9 +20,12 @@ function App() {
           <Route path='/quienes-somos' element={<QuienesSomos />} />
           <Route path='/que-es-biomap' element={<QueEsBiomap />} />
         </Route>
-        <Route path='/' element={<Plantilla2/>}>
-          <Route path='/mapa-general' element={<MapaGeneral/>}/>
-          <Route path='/region/:id' element={<Region/>}/>
+        <Route path='/' element={<Plantilla2 />}>
+          <Route path='/menu' element={<MenuSeleccion />} />
+          <Route path='/capsulas' element={<SeleccionCapsulas />}/>
+          <Route path='/mapa-general' element={<MapaGeneral />} />
+          <Route path='/region/:id' element={<Region />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

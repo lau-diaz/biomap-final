@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import MenuCapsulas from './MenuCapsulas.jsx'
-import './menucapsulas.css'
+import MenuCapsulas from '../../components/Almendra/MenuCapsulas.jsx'
+import '../../components/Almendra/MenuMapaCapsulas.css'
 
 
 function SeleccionCapsulas() {

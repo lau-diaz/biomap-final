@@ -1,6 +1,6 @@
 
 import React from 'react'
-import './menucapsulas.css'
+import './MenuCapsulas.css'
 
 
 function MenuCapsulas({imagencaps, titulobtn, colorcaps}) {

@@ -22,7 +22,7 @@ const Navbar2 = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/mapa-general">Menú</Link>
+                                <Link className="nav-link active" aria-current="page" to="/menu">Menú</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to='/mapa-general'>Mapa</Link>

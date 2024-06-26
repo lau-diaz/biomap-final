@@ -9,6 +9,7 @@ import QuienesSomos from './views/geral/QuienesSomos.jsx'
 import QueEsBiomap from './views/Cata/QueEsBiomap.jsx'
 import MenuSeleccion from './views/Almendra/MenuSeleccion.jsx'
 import SeleccionCapsulas from './views/Almendra/SeleccionCapsulas.jsx'
+import CapsulaEducativa from './components/geral/CapsulaEducativa.jsx'
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
           <Route path='/capsulas' element={<SeleccionCapsulas />}/>
           <Route path='/mapa-general' element={<MapaGeneral />} />
           <Route path='/region/:id' element={<Region />} />
-
+          <Route path='/capsula' element={<CapsulaEducativa />}/>
         </Route>
       </Routes>
     </BrowserRouter>

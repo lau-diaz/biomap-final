@@ -1,4 +1,4 @@
-body {
+#cuerpoCapsula {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,12 +29,14 @@ body {
 .titulo{
   margin-bottom: 10px;
   font-family:"Righteous", sans-serif;
+  text-transform: uppercase;
 
 }
 
 .sub-titulo {
   margin-bottom: 10px;
   font-family:"Poppins", sans-serif;
+
 }
 
 .imagenes-simbolo {

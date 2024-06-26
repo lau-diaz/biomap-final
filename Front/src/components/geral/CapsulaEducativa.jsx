@@ -3,7 +3,7 @@ import './CapsulaEducativa.css';
 
 function CapsulaEducativa() {
   return (
-
+    <div id='cuerpoCapsula'>
     <div className="capsula-educativa , container mt-10" id ="container">
       
       <div className="contenido-izquierdo, col-md-3">
@@ -45,6 +45,7 @@ function CapsulaEducativa() {
         <img src="http://imgfz.com/i/Tk74OiN.png" alt="Símbolo derecho" className="simbolo-derecho" /> <p><h6>Especie amenazada</h6></p>
       
       </div>
+    </div>
     </div>
   );
 }

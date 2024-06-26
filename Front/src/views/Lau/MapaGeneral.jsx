@@ -18,7 +18,7 @@ export default function MapaGeneral() {
 
 
   return (
-    <div className='container-flex fondoMapa'>
+    <div className='container-fluid fondoMapa'>
       <div className='row tituloMapa pt-5'>
         <h2>MAPA INTERACTIVO</h2>
       </div>

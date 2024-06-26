@@ -1,11 +1,42 @@
-#regionEco{
-    width: 500px;
+body{
+  background-color: #EEEEEE;
 }
 
-.fondoRegion{
-    background-color:#EEEEEE
-  }
+#contieneImg{
+  position: relative;
+  height: 450px; /* Ajusta la altura según sea necesario */
+}
 
-  .pestaniasRegion{
-    padding-top: 130px;
-  }
+#regionEco {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fondoRegion {
+  background-color: #EEEEEE
+}
+
+.pestaniasRegion {
+  padding-top: 130px;
+}
+
+#contenedor {
+  position: relative;
+  height: 500px; /* Ajusta la altura según sea necesario */
+}
+
+#imgMapa {
+  width: 360px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pestanias{
+  margin-top: 110px;
+  text-transform: uppercase;
+}

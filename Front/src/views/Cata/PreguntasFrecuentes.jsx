@@ -10,7 +10,9 @@ const PreguntasFrecuentes = () => {
                 
                 <FaqSection 
                     question="¿Qué es Biomap?" 
-                    answer="Biomap es una plataforma educativa con un mapa interactivo que muestra la biodiversidad de Chile y sus ecosistemas, enfocándose en la conservación de especies nativas. Ofrece cápsulas informativas y es accesible para todo público." 
+                    answer={(
+                        <ol>"<strong>Biomap</strong> es una plataforma educativa con un mapa interactivo que muestra la biodiversidad de Chile y sus ecosistemas, enfocándose en la conservación de especies nativas. Ofrece cápsulas informativas y es accesible para todo público."</ol> 
+                    )}
                 />
 
                 <FaqSection 

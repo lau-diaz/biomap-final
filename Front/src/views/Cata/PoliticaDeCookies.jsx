@@ -9,7 +9,7 @@ const PoliticaDeCookies = () => {
 
                 <CookieSection 
                     title="1. Introducción"
-                    content={<p>En <strong>Biomap</strong>, utilizamos cookies y tecnologías similares para mejorar su experiencia en nuestro sitio web [URL del Sitio Web] (el "Sitio"). Esta Política de Cookies explica qué son las cookies, cómo las utilizamos y cómo puede gestionarlas.</p>}
+                    content={<p>En <strong>Biomap</strong>, utilizamos cookies y tecnologías similares para mejorar su experiencia en nuestro sitio web. Esta Política de Cookies explica qué son las cookies, cómo las utilizamos y cómo puede gestionarlas.</p>}
                 />
 
                 <CookieSection 
@@ -54,7 +54,7 @@ const PoliticaDeCookies = () => {
 
                 <CookieSection 
                     title="7. Contacto"
-                    content={<p>Si tiene alguna pregunta o inquietud sobre esta Política de Cookies, no dude en ponerse en contacto con nosotros a través de [correo electrónico de contacto] o [dirección física de contacto].</p>}
+                    content={<p>Si tiene alguna pregunta o inquietud sobre esta Política de Cookies, no dude en ponerse en contacto con nosotros a través de <strong>contacto@biomap.cl</strong> o Completa el formulario de contacto haciendo click en CONTACTO al final de nuestra página.</p>}
                 />
             </div>
         </div>

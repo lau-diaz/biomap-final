@@ -9,7 +9,7 @@ const PoliticaDePrivacidad = () => {
 
                 <PrivacySection 
                     title="1. Introducción"
-                    content={<p>En <strong>Biomap</strong>, nosotros respetamos su privacidad y estamos comprometidos a proteger la información personal que usted nos proporciona a través de nuestro sitio web [URL del Sitio Web] (el "Sitio"). Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y compartimos, y sus derechos con respecto a su información.</p>}
+                    content={<p>En <strong>Biomap</strong>, nosotros respetamos su privacidad y estamos comprometidos a proteger la información personal que usted nos proporciona a través de nuestro sitio web. Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y compartimos, y sus derechos con respecto a su información.</p>}
                 />
 
                 <PrivacySection 
@@ -74,7 +74,7 @@ const PoliticaDePrivacidad = () => {
 
                 <PrivacySection 
                     title="8. Contacto"
-                    content={<p>Si tiene alguna pregunta o inquietud sobre esta Política de Privacidad, no dude en ponerse en contacto con nosotros a través de [correo electrónico de contacto] o [dirección física de contacto].</p>}
+                    content={<p>Si tiene alguna pregunta o inquietud sobre esta Política de Privacidad, no dude en ponerse en contacto con nosotros a través de <strong>contacto@biomap.cl</strong> o Completa el formulario de contacto haciendo click en CONTACTO al final de nuestra página.</p>}
                 />
             </div>
         </div>

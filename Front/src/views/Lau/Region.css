@@ -1,10 +1,11 @@
-body{
+body {
   background-color: #EEEEEE;
 }
 
-#contieneImg{
+#contieneImg {
   position: relative;
-  height: 450px; /* Ajusta la altura según sea necesario */
+  height: 450px;
+  /* Ajusta la altura según sea necesario */
 }
 
 #regionEco {
@@ -25,7 +26,8 @@ body{
 
 #contenedor {
   position: relative;
-  height: 500px; /* Ajusta la altura según sea necesario */
+  height: 500px;
+  /* Ajusta la altura según sea necesario */
 }
 
 #imgMapa {
@@ -36,7 +38,10 @@ body{
   transform: translate(-50%, -50%);
 }
 
-#pestanias{
-  margin-top: 110px;
-  text-transform: uppercase;
+#pestanias {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center; 
 }

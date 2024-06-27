@@ -8,7 +8,7 @@ const Parrafoimg = ({titulo, texto, imagen}) => {
                 <div className="col-3"></div>
                 <div className="col-6">
                     <div className="container">
-                        <h1 className="text-center mt-5 pt-5">
+                        <h1 className="text-center mt-5 pt-5" style={{fontFamily: "Righteous, sans-serif", fontWeight: "500", fontStyle: "normal", fontSize: "55pt", color: "#3B2D2D"}}>
                             {titulo}
                         </h1>
                     </div>

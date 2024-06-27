@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 
 const regionSchema = new mongoose.Schema({
     nombre: {
@@ -21,18 +21,11 @@ const regionSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    ecosistema1: {
-        type: String,
-        required: true
-    },
-    ecosistema2: {
-        type: String,
-        required: true
-    },
-    ecosistema3: {
-        type: String,
-        required: false
-    },
+    ecosistemas: [{
+        type: Schema.Types.ObjectId,
+        ref: "Ecosistema"
+    }]
+    
 })
 
 export default mongoose.model("Region", regionSchema);

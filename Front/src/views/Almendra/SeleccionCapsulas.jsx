@@ -6,17 +6,17 @@ import '../../components/Almendra/MenuMapaCapsulas.css'
 function SeleccionCapsulas() {
   return (
       <div className="App">
-      <div class="container text-center">
+      <div className="container text-center">
       <h1  style={{color: "#3B2D2D", fontFamily: "Righteous, sans-serif"}}>CÁPSULAS INFORMATIVAS</h1>
-      <div class="container text-center">
-  <div class="row">
-    <div class="col"> 
+      <div className="container text-center">
+  <div className="row">
+    <div className="col"> 
        <MenuCapsulas imagencaps={"https://i.ibb.co/JcNXCX9/Copihue-photo1-compressor.jpg"} titulobtn={"FLORA"} colorcaps={"#FF3F42"}/>
        </div>
-       <div class="col"> 
+       <div className="col"> 
        <MenuCapsulas imagencaps={"https://i.ibb.co/rbfSsNN/puma-chileno-puma-concolor-puma.jpg"} titulobtn={"FAUNA"} colorcaps={"#FFC842"}/>
        </div>
-       <div class="col"> 
+       <div className="col"> 
        <MenuCapsulas imagencaps={"https://i.ibb.co/wCct8pD/altiplano-chileno.jpg"} titulobtn={"BIOMA"} colorcaps={"#457692"}/>
        </div>
       </div>

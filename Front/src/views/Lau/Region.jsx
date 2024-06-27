@@ -4,12 +4,10 @@ import './Region.css'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
-import BotonCapsulas from '../../components/Lau/BotonCapsulas'
-
 
 function Region() {
   const { id } = useParams();
-  const [region, setRegion] = useState(null); // Cambio aquí: region en lugar de regiones
+  const [region, setRegion] = useState(null);
 
   useEffect(() => {
     fetch(`http://localhost:4001/api/region/${id}`)
@@ -21,17 +19,6 @@ function Region() {
   if (!region) {
     return <div>Loading...</div>;
   } 
-
-  // Aca me pongo a divagar
-  // const [capsula, setCapsula] = useState(null);
-  // useEffect(() => {
-  //   fetch(`http://localhost:4001/api/capsulas`)
-  //     .then(response => response.json())
-  //     .then(data => setCapsula(data))
-  //     .catch(error => console.error('Error al obtener datos:', error));
-  // }, []);
-
-  // Aca termina mi locura 
 
   return (
     <div>
@@ -47,12 +34,14 @@ function Region() {
             <img id='regionEco' src={region.imgRegion} />
           </div>
           <div className='col-3' id='pestanias'>
-            <Pestanias nombreRegion={region.ecosistema1} /> 
-            <Pestanias nombreRegion={region.ecosistema2} />
-            {region.ecosistema3 && <Pestanias nombreRegion={region.ecosistema3} />}
+          {region.ecosistemas.map(ecosistema => (
+            <Link key={ecosistema._id} to={`/ecosistema/${ecosistema._id}`} className='custom-link'>
+              <Pestanias nombreRegion={ecosistema.nombre} />
+              </Link>
+            ))}
           </div>
         </div>
-        <div className='row m-5'></div>
+        {/* <div className='row m-5'></div>
         <div className='row'></div>
         <div className='row mt-5 mb-5 p-3'>
           <div className='col-3'></div>
@@ -62,7 +51,7 @@ function Region() {
             </Link>
           </div>
           <div className='col-3'></div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

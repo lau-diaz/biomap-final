@@ -1,6 +1,5 @@
 import React from 'react'
 import './MenuMapaCapsulas.css'
-import './MenuCapsulas.css'
 
 function MenuMapaCapsulas({texto, colorbtn}) {
     return (

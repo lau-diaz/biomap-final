@@ -1,16 +1,11 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
-const capsulaSchema = new mongoose.Schema({
-
+const ecosistemaSchema = new mongoose.Schema({
     nombre: {
         type: String,
         required: true
     },
-    imgCentral: {
-        type: String,
-        required: true
-    },
-    nombreCtf: {
+    fotoEcosistema: {
         type: String,
         required: true
     },
@@ -24,27 +19,7 @@ const capsulaSchema = new mongoose.Schema({
     },
     descripcion3: {
         type: String,
-        required: true
-    },
-    tipoAlim: {
-        type: String,
-        required: true
-    },
-    imgAlim1: {
-        type: String,
-        required: true
-    },
-    imgAlim2: {
-        type: String,
-        required: true
-    },
-    imgAlim3: {
-        type: String,
         required: false
-    },
-    amenazado: {
-        type: Boolean,
-        required: true
     },
     dato1: {
         type: String,
@@ -70,10 +45,14 @@ const capsulaSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    ecosistema: {
-        type: String,
-        required: true
-    }
-});
+    region: {
+        type: Schema.Types.ObjectId,
+        ref: "Region"
+    },
+    capsulas: [{
+        type: Schema.Types.ObjectId,
+        ref: "Capsula"
+    }]
+})
 
-export default mongoose.model("Capsula", capsulaSchema)
+export default mongoose.model("Ecosistema", ecosistemaSchema);

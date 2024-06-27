@@ -1,0 +1,110 @@
+#cuerpoCapsula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eeeeee;
+  }
+  
+  .capsula-educativa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #FBF6F1;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .contenido-izquierdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .titulo{
+    margin-bottom: 10px;
+    font-family:"Righteous", sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+  }
+  
+  .sub-titulo {
+    margin-bottom: 10px;
+    font-family:"Poppins", sans-serif;
+  
+  }
+  
+  .imagenes-simbolo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Asegura que el texto y las imágenes estén en una columna */
+    position: relative;
+    display: inline-block;
+    margin: 0 5px; /* Espaciado entre imágenes */
+  }
+  
+  .simbolo {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    margin-top: 50px; /* Añade un margen superior para que el texto no se superponga con las imágenes */
+  }
+  
+  .alimentacion {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px;
+    z-index: 1;
+  }
+  .contenido-central {
+    text-align: center;
+  }
+  .imagen-central {
+    max-width: 350px;
+    height: auto;
+  }
+  
+  .contenido-derecho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .parrafo {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+  }
+  
+  .simbolo-derecho {
+    justify-content: end;
+    width: 30px;
+    height: 30px;
+  }
+  .contenedor-centro-bajo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .imagen-central-inferior-1, .imagen-central-inferior-2, .imagen-central-inferior-3 {
+    max-width: 100px;
+    height: auto;
+  }
+  

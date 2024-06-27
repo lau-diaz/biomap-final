@@ -7,4 +7,5 @@ router.put('/region/:id', updateRegion)
 router.get('/region/:id', getRegion)
 router.delete('/region/:id', deleteRegion)
 router.get('/region', getRegiones)
+
 export default router

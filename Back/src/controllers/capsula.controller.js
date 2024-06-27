@@ -1,7 +1,7 @@
 import Capsula from "../models/capsula.model.js";
 
 export const createCapsula = async (req, res) => {
-    const { nombre, imgCentral, nombreCtf, descripcion1, descripcion2, descripcion3, tipoAlim, imgAlim1, imgAlim2, imgAlim3, amenazado, dato1, dato2, dato3, imgDato1, imgDato2, imgDato3 } = req.body
+    const { nombre, imgCentral, nombreCtf, descripcion1, descripcion2, descripcion3, tipoAlim, imgAlim1, imgAlim2, imgAlim3, amenazado, dato1, dato2, dato3, imgDato1, imgDato2, imgDato3, ecosistema } = req.body
     const newCapsula = new Capsula({
         nombre, 
         imgCentral, 
@@ -19,7 +19,8 @@ export const createCapsula = async (req, res) => {
         dato3, 
         imgDato1, 
         imgDato2, 
-        imgDato3
+        imgDato3,
+        ecosistema
     });
     const savedCapsula = await newCapsula.save();
     res.json(savedCapsula)

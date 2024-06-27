@@ -1,5 +1,6 @@
 import React from "react"
 import './Footer.css'
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
@@ -30,13 +31,13 @@ const Footer = () => {
 
                                 <ul className="list-unstyled mb-0 listasFooter">
                                     <li>
-                                        <a href="#!" className="text-body">Contacto</a>
+                                        <Link to='/contacto' className="text-body">Contacto</Link>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-body">Información Corporativa</a>
+                                        <Link to='/quienes-somos' className="text-body">Información Corporativa</Link>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-body">Nuestro Equipo</a>
+                                        <Link to='/quienes-somos' className="text-body">Nuestro Equipo</Link>
                                     </li>
                                     <li>
                                         <a href="#!" className="text-body">Afiliados</a>
@@ -51,16 +52,16 @@ const Footer = () => {
 
                                 <ul className="list-unstyled mb-0 listasFooter">
                                     <li>
-                                        <a href="preguntas-frecuentes.html" className="text-body">Preguntas frecuentes</a>
+                                        <Link to='/faq' className="text-body">Preguntas frecuentes</Link>
                                     </li>
                                     <li>
                                         <a href="#!" className="text-body">Términos de uso</a>
                                     </li>
                                     <li>
-                                        <a href="politica-de-privacidad.html" className="text-body">Política de privacidad</a>
+                                        <Link to='/privacidad' className="text-body">Política de privacidad</Link>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-body">Política de cookies</a>
+                                        <Link to='/cookies' className="text-body">Política de cookies</Link>
                                     </li>
                                 </ul>
                             </div>

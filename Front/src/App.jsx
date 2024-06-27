@@ -10,7 +10,6 @@ import MenuSeleccion from './views/Almendra/MenuSeleccion.jsx'
 import SeleccionCapsulas from './views/Almendra/SeleccionCapsulas.jsx'
 import CapsulaEducativa from './components/geral/CapsulaEducativa.jsx'
 import Ecosistema from './views/Lau/Ecosistema.jsx'
-import Login from './views/Iris/login.jsx'
 
 function App() {
 
@@ -22,6 +21,10 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/quienes-somos' element={<QuienesSomos />} />
           <Route path='/que-es-biomap' element={<QueEsBiomap />} />
+          <Route path='/contacto' element={<Contacto />} />
+          <Route path='/faq' element={<PreguntasFrecuentes />}/>
+          <Route path='/privacidad' element={<PoliticaDePrivacidad />}/>
+          <Route path='/cookies' element={<PoliticaDeCookies />}/>
         </Route>
         <Route path='/' element={<Plantilla2 />}>
           <Route path='/menu' element={<MenuSeleccion />} />

@@ -14,11 +14,11 @@ function MenuSeleccion() {
       <div className="container position-relative">
         <div className="row justify-content-center">
           <div className="col d-flex justify-content-end">
-            <MenuMapaCapsulas texto={"CÁPSULAS INFORMATIVAS"} colorbtn={"#79BF67"} />
+            <MenuMapaCapsulas ubicacion={"/capsulas"} texto={"CÁPSULAS INFORMATIVAS"} colorbtn={"#79BF67"} />
             <div className="custom-vertical-line"></div>
           </div>
           <div className="col d-flex justify-content-start">
-            <MenuMapaCapsulas texto={"MAPA INTERACTIVO"} colorbtn={"#457692"} />
+            <MenuMapaCapsulas ubicacion={"/mapa-general"} texto={"MAPA INTERACTIVO"} colorbtn={"#457692"} />
           </div>
         </div>
       </div>

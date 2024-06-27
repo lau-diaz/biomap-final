@@ -8,7 +8,7 @@ function ImgHov({nombre, imagenAnimales}) {
         <img className="fotosInicio"
           src={imagenAnimales}/>
           <div className="middle">
-            <div className="text">{nombre}</div>
+            <div className="textoHover">{nombre}</div>
             <div className="textoFoto">¡Si quieres saber más sobre el {nombre}, regístrate!</div>
           </div>
         </div>

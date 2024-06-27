@@ -4,7 +4,7 @@
   }
   
   .custom-vertical-line {
-    height: 50%; /* Ajusta la altura de la línea según tus necesidades */
+    height: 110%; /* Ajusta la altura de la línea según tus necesidades */
     width: 5px; /* Ajusta el grosor de la línea */
     background-color: #3B2D2D; /* Cambia el color según tus necesidades */
     margin: 0 auto; /* Centra la línea verticalmente en el contenedor */

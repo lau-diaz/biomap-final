@@ -1,15 +1,18 @@
 import React from 'react';
 import './PreguntasFrecuentes.css'; 
+import { useState, useEffect } from 'react';
 
 const PreguntasFrecuentes = () => {
     return (
         <div className="container-fluid">
             <div className="container">
-                <h1>Preguntas Frecuentes (FAQ)</h1>
+                <h1>PREGUNTAS FRECUENTES (FAQ)</h1>
                 
                 <FaqSection 
                     question="¿Qué es Biomap?" 
-                    answer="Biomap es una plataforma educativa con un mapa interactivo que muestra la biodiversidad de Chile y sus ecosistemas, enfocándose en la conservación de especies nativas. Ofrece cápsulas informativas y es accesible para todo público." 
+                    answer={(
+                        <ol>"<strong>Biomap</strong> es una plataforma educativa con un mapa interactivo que muestra la biodiversidad de Chile y sus ecosistemas, enfocándose en la conservación de especies nativas. Ofrece cápsulas informativas y es accesible para todo público."</ol> 
+                    )}
                 />
 
                 <FaqSection 

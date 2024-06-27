@@ -10,6 +10,11 @@ import MenuSeleccion from './views/Almendra/MenuSeleccion.jsx'
 import SeleccionCapsulas from './views/Almendra/SeleccionCapsulas.jsx'
 import CapsulaEducativa from './components/geral/CapsulaEducativa.jsx'
 import Ecosistema from './views/Lau/Ecosistema.jsx'
+import Login from './views/Iris/login.jsx'
+import Contacto from './views/Cata/Contacto.jsx'
+import PoliticaDeCookies from './views/Cata/PoliticaDeCookies.jsx'
+import PoliticaDePrivacidad from './views/Cata/PoliticaDePrivacidad.jsx'
+import PreguntasFrecuentes from './views/Cata/PreguntasFrecuentes.jsx'
 
 function App() {
 

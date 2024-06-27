@@ -21,7 +21,7 @@ function Region() {
   } 
 
   return (
-    <div>
+    <div className='fondoregion'>
       <div className='container-fluid fondoRegion'>
         <div className='row tituloMapa pt-5 m-4'>
           <h2 style={{ textTransform: 'uppercase' }}>{region.nombre}</h2>

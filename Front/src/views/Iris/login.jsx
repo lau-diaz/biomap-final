@@ -3,6 +3,7 @@ import * as Components from '../../components/Iris/loginComponents'
 import '../../components/Iris/index.css'
 import { useForm } from 'react-hook-form'
 import { registerRequest } from '../../api/auth'
+import { Link } from 'react-router-dom'
 
 
 function Login() {
@@ -22,7 +23,7 @@ function Login() {
                         <Components.Input type='text' placeholder='Nombre' {...register('username', { required: true })} />
                         <Components.Input type='email' placeholder='Email' {...register('email', { required: true })} />
                         <Components.Input type='password' placeholder='Contraseña' {...register('password', { required: true })} />
-                        <Components.Button type='submit'>Registrar usuario</Components.Button>
+                        <Components.Button type='submit'><Link style={{ color:' white', textDecoration: 'none' }} to="/menu">Registrar usuario</Link></Components.Button>
                     </Components.Form>
                 </Components.SignUpContainer>
 

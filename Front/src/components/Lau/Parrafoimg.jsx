@@ -13,7 +13,7 @@ const Parrafoimg = ({titulo, texto, imagen}) => {
                         </h1>
                     </div>
                     <div className="text-center texto">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc mi, dapibus et enim nec, mattis lacinia turpis. Curabitur in condimentum tortor, id aliquam eros. Nullam non nulla quis dui vulputate molestie. Sed fringilla urna nec erat viverra auctor. Aliquam malesuada facilisis molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce pretium quam ut dui dictum pharetra. Nunc eu turpis facilisis risus luctus tincidunt at quis nisi. Vivamus vulputate odio nibh, non feugiat massa luctus rhoncus. Maecenas in vehicula dolor.</p>
+                    <p>{texto}</p>
                     </div>
                 </div>
                 <div className="text-center pt-3">

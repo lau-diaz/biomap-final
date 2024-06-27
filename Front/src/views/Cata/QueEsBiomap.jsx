@@ -8,7 +8,7 @@ const QueEsBiomap = () => {
         <div className="col-2"></div>
         <div className="col-8">
           <div className="text-center">
-          <h1 class="text-center mt-5 pt-5">
+          <h1 style={{color: "#3B2D2D", fontFamily: "Righteous, sans-serif"}} class="text-center mt-5 pt-5">
           ¿QUÉ ES BIOMAP?
         </h1>
             <p>

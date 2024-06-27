@@ -36,7 +36,9 @@ const Navbar = () => {
                         </ul>
                         <form className="container-flex justify-content-end">
                             <button id="botonIniciar" className="btn btn-warning me-2" type="button"><Link to='/login' style={{ color: 'white', textDecoration: 'none' }}>Iniciar Sesión</Link></button>
+                            <Link to='/login'>
                             <button id="botonRegistrar" className="btn btn-sm btn-danger" type="button">Registrarse</button>
+                            </Link>
                         </form>
                     </div>
                 </div>

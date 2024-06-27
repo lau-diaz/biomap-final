@@ -5,7 +5,7 @@ const PoliticaDePrivacidad = () => {
     return (
         <div className="container-fluid">
             <div className="container">
-                <h1>Política de Privacidad</h1>
+                <h1>POLÍTICA DE PRIVACIDAD</h1>
 
                 <PrivacySection 
                     title="1. Introducción"

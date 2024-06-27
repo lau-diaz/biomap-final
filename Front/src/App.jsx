@@ -11,6 +11,11 @@ import MenuSeleccion from './views/Almendra/MenuSeleccion.jsx'
 import SeleccionCapsulas from './views/Almendra/SeleccionCapsulas.jsx'
 import CapsulaEducativa from './components/geral/CapsulaEducativa.jsx'
 import Ecosistema from './views/Lau/Ecosistema.jsx'
+import Contacto from './views/Cata/Contacto.jsx'
+import PreguntasFrecuentes from './views/Cata/PreguntasFrecuentes.jsx'
+import PoliticaDePrivacidad from './views/Cata/PoliticaDePrivacidad.jsx'
+import PoliticaDeCookies from './views/Cata/PoliticaDeCookies.jsx'
+
 
 function App() {
 
@@ -21,6 +26,10 @@ function App() {
           <Route index element={<Inicio />} />
           <Route path='/quienes-somos' element={<QuienesSomos />} />
           <Route path='/que-es-biomap' element={<QueEsBiomap />} />
+          <Route path='/contacto' element={<Contacto />} />
+          <Route path='/faq' element={<PreguntasFrecuentes />}/>
+          <Route path='/privacidad' element={<PoliticaDePrivacidad />}/>
+          <Route path='/cookies' element={<PoliticaDeCookies />}/>
         </Route>
         <Route path='/' element={<Plantilla2 />}>
           <Route path='/menu' element={<MenuSeleccion />} />

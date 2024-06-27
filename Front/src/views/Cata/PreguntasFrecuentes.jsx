@@ -1,11 +1,12 @@
 import React from 'react';
 import './PreguntasFrecuentes.css'; 
+import { useState, useEffect } from 'react';
 
 const PreguntasFrecuentes = () => {
     return (
         <div className="container-fluid">
             <div className="container">
-                <h1>Preguntas Frecuentes (FAQ)</h1>
+                <h1>PREGUNTAS FRECUENTES (FAQ)</h1>
                 
                 <FaqSection 
                     question="¿Qué es Biomap?" 

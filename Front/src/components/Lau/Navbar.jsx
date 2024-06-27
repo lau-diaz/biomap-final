@@ -14,7 +14,7 @@ const Navbar = () => {
                                 alt="Biomap Isotipo" width="45" height="45" />
                         </Link>
                     </div>
-                    <a id="nombreBarra" className="navbar-brand" href="inicio.html">BIOMAP</a>
+                    <Link id="nombreBarra" className="navbar-brand" to='/'>BIOMAP</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -31,10 +31,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/quienes-somos">Sobre Nosotras</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/mapa-general">BOTON DE PRUEBA</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/region">OTRO BOTON</Link>
+                                <Link className="nav-link" to="/menu">Menú</Link>
                             </li>
                         </ul>
                         <form className="container-flex justify-content-end">

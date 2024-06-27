@@ -5,7 +5,7 @@ const Contacto = () => {
     return (
         <div className="form-wrapper">
             <div className="form-container">
-                <h1>Formulario de Contacto</h1>
+                <h1>FORMULARIO DE CONTACTO</h1>
                 <form>
                     <div className="mb-3">
                         <label htmlFor="nombre" className="form-label">Nombre</label>

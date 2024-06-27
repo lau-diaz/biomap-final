@@ -31,9 +31,9 @@ const Navbar2 = () => {
                                 <Link className="nav-link" to='/capsulas'>Cápsulas Informativas</Link>
                             </li>
                         </ul>
-                        <form className="container-flex justify-content-end">
+                        {/* <form className="container-flex justify-content-end">
                             <button id="botonCerrar" className="btn btn-sm btn-danger" type="button"><Link to='/' style={{ color: 'white', textDecoration: 'none' }}>Cerrar Sesión</Link></button>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
             </nav>

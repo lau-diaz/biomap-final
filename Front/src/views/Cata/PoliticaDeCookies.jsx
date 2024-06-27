@@ -5,7 +5,7 @@ const PoliticaDeCookies = () => {
     return (
         <div className="container-fluid">
             <div className="container">
-                <h1>Política de Cookies</h1>
+                <h1>POLÍTICA DE COOKIES</h1>
 
                 <CookieSection 
                     title="1. Introducción"
